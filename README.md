@@ -15,7 +15,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 How to use
 =======
 
-For set this frame work you have three simple steps:
+For enjoy this framework you have three simple steps:
 
 ### Step 1
 
@@ -57,6 +57,26 @@ extension TabBarController: UITabBarControllerDelegate {
 }
 
 ```
+create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
+<p>The first property is:</p>
+`duration` which is the duration of our transition
+<p>The second property is:</p>
+`animationOption` which is the style of you transition animation
+
+| animationOption  | 
+| ------------- |     
+| .scaleX   |
+| .scaleY  |
+| .scaleInXY  |
+| .scaleOutXY  |
+| .rightToLeft  |
+| .leftToRight  |
+| .topToBottom  |
+| .bottomToTop  |
+| .fade  |
+| .topLeftToBottomRight  |
+| .bottomLeftToTopRight  |
+
 
 Requirements
 =======
