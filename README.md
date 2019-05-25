@@ -2,7 +2,7 @@
 ![Github-SHNDRS-SwiftyTBT](https://user-images.githubusercontent.com/34839080/58368251-ab776680-7eff-11e9-827a-831ecf637833.png)
 
 ![swift-version](https://img.shields.io/badge/Swift-4.2-blueviolet.svg)
-[![License](https://img.shields.io/cocoapods/l/SwiftyTabBarTransition.svg?colorB=blue)](https://cocoapods.org/pods/SwiftyTabBarTransition)
+[![License](https://img.shields.io/cocoapods/l/SwiftyTabBarTransition.svg?colorB=green)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 
