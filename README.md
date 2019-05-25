@@ -11,3 +11,45 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+For set this frame work you have three simple steps:
+
+### Step 1
+
+<p>Let's import SwiftyTabBarTransition</p>
+
+```Swift
+import SwiftyTabBarTransition
+
+```
+
+### Step 2
+
+in `viewDidLoad()` method of your `UITabBarController`, make `delegate` equal to `self`
+
+```Swift
+
+class TabBarController: UITabBarController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        delegate = self
+    }
+}
+```
+
+### Step 3
+
+your `UITabBarController` class, must inherite from `UITabBarControllerDelegate` protocol, then write an extension of your `UITabBarController`, then confirm from `animationControllerForTransitionFrom` method
+
+```Swift
+
+extension TabBarController: UITabBarControllerDelegate {
+    
+    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        let transitionOptions = SwiftyTabBarTransitionOptions(duration: 0.3, animationOption: .bottomToTop)
+        let transition = SwiftyTabBarTransition.set(transition: transitionOptions)
+        return transition
+    }
+}
+
+```
