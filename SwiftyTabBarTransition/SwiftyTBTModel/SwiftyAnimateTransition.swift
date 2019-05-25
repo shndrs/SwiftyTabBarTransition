@@ -30,7 +30,7 @@ public class SwiftyTabBarTransitionOptions {
     
     public required init() {}
     
-    init(duration:TimeInterval, animationOption:SwiftyTabBarAnimations) {
+    public init(duration:TimeInterval, animationOption:SwiftyTabBarAnimations) {
         self.duration = duration
         self.animationOption = animationOption
     }

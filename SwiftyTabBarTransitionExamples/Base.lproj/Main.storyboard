@@ -1,24 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nna-WN-fpu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="dE4-Vh-9Gb">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="V1J-9Z-cQK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v29-Q7-KpQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6v-Ao-amI">
+                                <rect key="frame" x="16" y="36" width="343" height="566"/>
+                                <mutableString key="text">This is true even if the tab was already selected.) Because selecting a tab replaces the contents of the interface, the type of interface managed in each tab need not be similar in any way. In fact, tab bar interfaces are commonly used either to present different types of information or to present the same information using a completely different style of interface. Figure 1 shows the tab bar interface presented by the Clock app, each tab of which presents a type of time based information. You should never access the tab bar view of a tab bar controller directly. To configure the tabs of a tab bar controller, you assign the view controllers that provide the root view for each tab to the viewControllers property. The order in which you specify the view controllers determines the order in which they appear in the tab bar. When setting this property, you should also assign a value to the selectedViewController property to indicate which view controller is selected initially. </mutableString>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P6v-Ao-amI" firstAttribute="top" secondItem="iOf-V2-4ek" secondAttribute="top" constant="16" id="XCp-gk-Z2e"/>
+                            <constraint firstItem="P6v-Ao-amI" firstAttribute="leading" secondItem="iOf-V2-4ek" secondAttribute="leading" constant="16" id="la1-EB-w9j"/>
+                            <constraint firstItem="iOf-V2-4ek" firstAttribute="trailing" secondItem="P6v-Ao-amI" secondAttribute="trailing" constant="16" id="tTy-n5-Bzv"/>
+                            <constraint firstItem="iOf-V2-4ek" firstAttribute="bottom" secondItem="P6v-Ao-amI" secondAttribute="bottom" constant="16" id="w9i-Ey-nq0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iOf-V2-4ek"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="a4a-sZ-82j"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBS-uX-fKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-697" y="388"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="LZE-g4-fsV">
+            <objects>
+                <viewController id="vba-ca-ats" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NUS-Rm-S88">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv2-cD-5ik">
+                                <rect key="frame" x="32" y="52" width="311" height="534"/>
+                                <string key="text">The tab bar interface displays tabs at the bottom of the window for selecting between the different modes and for displaying the views for that mode. This class is generally used as-is, but may also be subclassed.
+
+Each tab of a tab bar controller interface is associated with a custom view controller. When the user selects a specific tab, the tab bar controller displays the root view of the corresponding view controller, replacing any previous views.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aIb-Yw-4p3" firstAttribute="trailing" secondItem="pv2-cD-5ik" secondAttribute="trailing" constant="32" id="c3V-3g-ILt"/>
+                            <constraint firstItem="pv2-cD-5ik" firstAttribute="leading" secondItem="aIb-Yw-4p3" secondAttribute="leading" constant="32" id="p2g-VB-UWh"/>
+                            <constraint firstItem="pv2-cD-5ik" firstAttribute="top" secondItem="aIb-Yw-4p3" secondAttribute="top" constant="32" id="pk3-SO-tWV"/>
+                            <constraint firstItem="aIb-Yw-4p3" firstAttribute="bottom" secondItem="pv2-cD-5ik" secondAttribute="bottom" constant="32" id="tZ0-MD-khu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aIb-Yw-4p3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="XN0-0L-Tgx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gl9-jK-04Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="-277"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rmo-R2-BA6">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="nna-WN-fpu" customClass="TabBarController" customModule="SwiftyTabBarTransitionExamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J3K-KH-hHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vba-ca-ats" kind="relationship" relationship="viewControllers" id="Idk-wZ-ZMV"/>
+                        <segue destination="V1J-9Z-cQK" kind="relationship" relationship="viewControllers" id="F7m-Eg-tWF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQg-nx-QlZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1649" y="55"/>
         </scene>
     </scenes>
 </document>

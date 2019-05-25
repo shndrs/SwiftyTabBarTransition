@@ -11,7 +11,6 @@
 		F4AC65182299040200253434 /* SwiftyTabBarTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC65172299040200253434 /* SwiftyTabBarTransitionTests.swift */; };
 		F4AC651A2299040300253434 /* SwiftyTabBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AC650C2299040200253434 /* SwiftyTabBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4AC652A229904D700253434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC6529229904D700253434 /* AppDelegate.swift */; };
-		F4AC652C229904D700253434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC652B229904D700253434 /* ViewController.swift */; };
 		F4AC652F229904D700253434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AC652D229904D700253434 /* Main.storyboard */; };
 		F4AC6531229904D800253434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AC6530229904D800253434 /* Assets.xcassets */; };
 		F4AC6534229904D800253434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AC6532229904D800253434 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,8 @@
 		F4AC655A229909C900253434 /* BottomToTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC6559229909C900253434 /* BottomToTop.swift */; };
 		F4AC655C229909E000253434 /* TopLeftToBottomRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC655B229909E000253434 /* TopLeftToBottomRight.swift */; };
 		F4AC655E229909F800253434 /* BottomLeftToTopRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC655D229909F800253434 /* BottomLeftToTopRight.swift */; };
+		F4AC657422990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC657322990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */; };
+		F4AC657C22990D0000253434 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC657B22990D0000253434 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F4AC65082299040200253434;
 			remoteInfo = SwiftyTabBarTransition;
+		};
+		F4AC657622990C3800253434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AC65002299040200253434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AC6526229904D700253434;
+			remoteInfo = SwiftyTabBarTransitionExamples;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,7 +59,6 @@
 		F4AC65192299040200253434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AC6527229904D700253434 /* SwiftyTabBarTransitionExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyTabBarTransitionExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AC6529229904D700253434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4AC652B229904D700253434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4AC652E229904D700253434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4AC6530229904D800253434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AC6533229904D800253434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +78,10 @@
 		F4AC6559229909C900253434 /* BottomToTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToTop.swift; sourceTree = "<group>"; };
 		F4AC655B229909E000253434 /* TopLeftToBottomRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeftToBottomRight.swift; sourceTree = "<group>"; };
 		F4AC655D229909F800253434 /* BottomLeftToTopRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLeftToTopRight.swift; sourceTree = "<group>"; };
+		F4AC657122990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyTabBarTransitionExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AC657322990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTabBarTransitionExamplesUITests.swift; sourceTree = "<group>"; };
+		F4AC657522990C3800253434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AC657B22990D0000253434 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +107,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4AC656E22990C3800253434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,8 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				F4AC650B2299040200253434 /* SwiftyTabBarTransition */,
-				F4AC65162299040200253434 /* SwiftyTabBarTransitionTests */,
 				F4AC6528229904D700253434 /* SwiftyTabBarTransitionExamples */,
+				F4AC65162299040200253434 /* SwiftyTabBarTransitionTests */,
+				F4AC657222990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */,
 				F4AC650A2299040200253434 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +134,7 @@
 				F4AC65092299040200253434 /* SwiftyTabBarTransition.framework */,
 				F4AC65122299040200253434 /* SwiftyTabBarTransitionTests.xctest */,
 				F4AC6527229904D700253434 /* SwiftyTabBarTransitionExamples.app */,
+				F4AC657122990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F4AC6529229904D700253434 /* AppDelegate.swift */,
-				F4AC652B229904D700253434 /* ViewController.swift */,
+				F4AC657B22990D0000253434 /* TabBarController.swift */,
 				F4AC652D229904D700253434 /* Main.storyboard */,
 				F4AC6530229904D800253434 /* Assets.xcassets */,
 				F4AC6532229904D800253434 /* LaunchScreen.storyboard */,
@@ -195,6 +215,15 @@
 				F4AC653D2299084500253434 /* SwiftyAnimator.swift */,
 			);
 			path = SwiftyTBTAnimator;
+			sourceTree = "<group>";
+		};
+		F4AC657222990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AC657322990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */,
+				F4AC657522990C3800253434 /* Info.plist */,
+			);
+			path = SwiftyTabBarTransitionExamplesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +293,24 @@
 			productReference = F4AC6527229904D700253434 /* SwiftyTabBarTransitionExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4AC657022990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AC657822990C3800253434 /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */;
+			buildPhases = (
+				F4AC656D22990C3800253434 /* Sources */,
+				F4AC656E22990C3800253434 /* Frameworks */,
+				F4AC656F22990C3800253434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AC657722990C3800253434 /* PBXTargetDependency */,
+			);
+			name = SwiftyTabBarTransitionExamplesUITests;
+			productName = SwiftyTabBarTransitionExamplesUITests;
+			productReference = F4AC657122990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -284,6 +331,10 @@
 					F4AC6526229904D700253434 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					F4AC657022990C3800253434 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F4AC6526229904D700253434;
+					};
 				};
 			};
 			buildConfigurationList = F4AC65032299040200253434 /* Build configuration list for PBXProject "SwiftyTabBarTransition" */;
@@ -302,6 +353,7 @@
 				F4AC65082299040200253434 /* SwiftyTabBarTransition */,
 				F4AC65112299040200253434 /* SwiftyTabBarTransitionTests */,
 				F4AC6526229904D700253434 /* SwiftyTabBarTransitionExamples */,
+				F4AC657022990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,6 +380,13 @@
 				F4AC6534229904D800253434 /* LaunchScreen.storyboard in Resources */,
 				F4AC6531229904D800253434 /* Assets.xcassets in Resources */,
 				F4AC652F229904D700253434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC656F22990C3800253434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +427,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4AC652C229904D700253434 /* ViewController.swift in Sources */,
 				F4AC652A229904D700253434 /* AppDelegate.swift in Sources */,
+				F4AC657C22990D0000253434 /* TabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AC656D22990C3800253434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AC657422990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +447,11 @@
 			isa = PBXTargetDependency;
 			target = F4AC65082299040200253434 /* SwiftyTabBarTransition */;
 			targetProxy = F4AC65142299040200253434 /* PBXContainerItemProxy */;
+		};
+		F4AC657722990C3800253434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AC6526229904D700253434 /* SwiftyTabBarTransitionExamples */;
+			targetProxy = F4AC657622990C3800253434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,6 +724,44 @@
 			};
 			name = Release;
 		};
+		F4AC657922990C3800253434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
+				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
+			};
+			name = Debug;
+		};
+		F4AC657A22990C3800253434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
+				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -687,6 +797,15 @@
 			buildConfigurations = (
 				F4AC6537229904D800253434 /* Debug */,
 				F4AC6538229904D800253434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AC657822990C3800253434 /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AC657922990C3800253434 /* Debug */,
+				F4AC657A22990C3800253434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
