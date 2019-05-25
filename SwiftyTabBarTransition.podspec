@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftyTabBarTransition"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "An UITabBarController transition animation with a lot of options for animation"
 
   spec.description  = <<-DESC
