@@ -58,10 +58,15 @@ extension TabBarController: UITabBarControllerDelegate {
 
 ```
 create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
-<p>The first property is:</p>
-`duration` which is the duration of our transition
-<p>The second property is:</p>
-`animationOption` which is the style of you transition animation
+<p>The first property is</p>
+
+*    duration
+<p>Which is the duration of our transition
+    
+<p>The second property is</p>
+
+*    animationOption
+<p>which is the style of you transition animation</p>
 
 | animationOption  | 
 | ------------- |     
