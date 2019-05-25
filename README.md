@@ -12,6 +12,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+![leftToRight](https://user-images.githubusercontent.com/34839080/58367838-3143e380-7ef9-11e9-8661-08a35560285e.gif)
+![scaleInXY](https://user-images.githubusercontent.com/34839080/58367836-30ab4d00-7ef9-11e9-9609-cc1bc0ce1053.gif)
+
 How to use
 =======
 
@@ -58,13 +62,10 @@ extension TabBarController: UITabBarControllerDelegate {
 
 ```
 create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
-<p>The first property is</p>
 
 *    duration
 <p>Which is the duration of our transition
     
-<p>The second property is</p>
-
 *    animationOption
 <p>which is the style of you transition animation</p>
 
@@ -82,6 +83,13 @@ create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peropertie
 | .topLeftToBottomRight  |
 | .bottomLeftToTopRight  |
 
+
+More Animations
+=======
+
+
+![scaleX](https://user-images.githubusercontent.com/34839080/58367837-3143e380-7ef9-11e9-9493-e7e1a205de47.gif)
+![topLeftToBottomRight](https://user-images.githubusercontent.com/34839080/58367861-bf1fce80-7ef9-11e9-8d49-93c9f36ee1de.gif)
 
 Requirements
 =======
