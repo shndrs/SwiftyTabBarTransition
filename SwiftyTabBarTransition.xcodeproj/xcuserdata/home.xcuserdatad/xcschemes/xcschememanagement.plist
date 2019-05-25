@@ -14,6 +14,24 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>SwiftyTabBarTransitionExamplesUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F4AC6526229904D700253434</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4AC65802299138800253434</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

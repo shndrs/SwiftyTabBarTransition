@@ -11,45 +11,21 @@ import XCTest
 class SwiftyTabBarTransitionExamplesUITests: XCTestCase {
 
     override func setUp() {
-//        continueAfterFailure = false
-//        XCUIApplication().launch()
-        testExample()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // In UI tests it is usually best to stop immediately when a failure occurs.
+        continueAfterFailure = false
+
+        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
+        XCUIApplication().launch()
+
+        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
     override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
     func testExample() {
-        
-        
-        let app = XCUIApplication()
-        let tabBarsQuery = app.tabBars
-        let item2Button = tabBarsQuery.buttons["Item 2"]
-        item2Button.tap()
-        
-        let item1Button = tabBarsQuery.buttons["Item 1"]
-        item1Button.tap()
-        XCUIDevice.shared.orientation = .landscapeRight
-        item2Button.tap()
-        item1Button.tap()
-        XCUIDevice.shared.orientation = .portraitUpsideDown
-        XCUIDevice.shared.orientation = .landscapeLeft
-        item2Button.tap()
-        item1Button.tap()
-        XCUIDevice.shared.orientation = .portrait
-        app.statusBars.otherElements["3 of 3 Wi-Fi bars"].tap()
-        XCUIDevice.shared.orientation = .portrait
-        
-        let theTabBarInterfaceDisplaysTabsAtTheBottomOfTheWindowForSelectingBetweenTheDifferentModesAndForDisplayingTheViewsForThatModeThisClassIsGenerallyUsedAsIsButMayAlsoBeSubclassedEachTabOfATabBarControllerInterfaceIsAssociatedWithACustomViewControllerWhenTheUserSelectsASpecificTabTheTabBarControllerDisplaysTheRootViewOfTheCorrespondingViewControllerReplacingAnyPreviousViewsStaticText = app.staticTexts["The tab bar interface displays tabs at the bottom of the window for selecting between the different modes and for displaying the views for that mode. This class is generally used as-is, but may also be subclassed.\n\nEach tab of a tab bar controller interface is associated with a custom view controller. When the user selects a specific tab, the tab bar controller displays the root view of the corresponding view controller, replacing any previous views."]
-        theTabBarInterfaceDisplaysTabsAtTheBottomOfTheWindowForSelectingBetweenTheDifferentModesAndForDisplayingTheViewsForThatModeThisClassIsGenerallyUsedAsIsButMayAlsoBeSubclassedEachTabOfATabBarControllerInterfaceIsAssociatedWithACustomViewControllerWhenTheUserSelectsASpecificTabTheTabBarControllerDisplaysTheRootViewOfTheCorrespondingViewControllerReplacingAnyPreviousViewsStaticText.swipeDown()
-        XCUIDevice.shared.orientation = .portrait
-        app/*@START_MENU_TOKEN@*/.scrollViews/*[[".windows[\"SBCoverSheetWindow\"].scrollViews",".scrollViews"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.otherElements.collectionViews.containing(.other, identifier:"No Older Notifications").element.tap()
-        XCUIDevice.shared.orientation = .portrait
-        theTabBarInterfaceDisplaysTabsAtTheBottomOfTheWindowForSelectingBetweenTheDifferentModesAndForDisplayingTheViewsForThatModeThisClassIsGenerallyUsedAsIsButMayAlsoBeSubclassedEachTabOfATabBarControllerInterfaceIsAssociatedWithACustomViewControllerWhenTheUserSelectsASpecificTabTheTabBarControllerDisplaysTheRootViewOfTheCorrespondingViewControllerReplacingAnyPreviousViewsStaticText.swipeUp()
-        XCUIDevice.shared.orientation = .portrait
-        item2Button.tap()
-        item1Button.tap()
-        
     }
 
 }
