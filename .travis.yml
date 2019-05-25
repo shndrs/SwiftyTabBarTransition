@@ -5,7 +5,7 @@ osx_image: xcode10.1
 env:
   matrix:
     - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
+    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 5s'
 
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project SwiftyTabBarTransition.xcodeproj -scheme SwiftyTabBarTransition -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
