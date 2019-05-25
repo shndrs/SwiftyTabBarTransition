@@ -15,5 +15,5 @@ script:
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
   
 view raw
-SwiftyLib basic .travis.yml hosted with ❤ by GitHub
+SwiftyTabBarTransition basic .travis.yml hosted with ❤ by GitHub
 
