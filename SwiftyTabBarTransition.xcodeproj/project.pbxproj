@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F464184A229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4641849229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.swift */; };
 		F4AC651A2299040300253434 /* SwiftyTabBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AC650C2299040200253434 /* SwiftyTabBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4AC652A229904D700253434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC6529229904D700253434 /* AppDelegate.swift */; };
 		F4AC652F229904D700253434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AC652D229904D700253434 /* Main.storyboard */; };
@@ -28,14 +29,13 @@
 		F4AC655C229909E000253434 /* TopLeftToBottomRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC655B229909E000253434 /* TopLeftToBottomRight.swift */; };
 		F4AC655E229909F800253434 /* BottomLeftToTopRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC655D229909F800253434 /* BottomLeftToTopRight.swift */; };
 		F4AC657C22990D0000253434 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC657B22990D0000253434 /* TabBarController.swift */; };
-		F4AC65842299138800253434 /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC65832299138800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */; };
 		F4AC658E229925C800253434 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F4AC658B229925C800253434 /* README.md */; };
 		F4AC658F229925C800253434 /* SwiftyTabBarTransition.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F4AC658C229925C800253434 /* SwiftyTabBarTransition.podspec */; };
 		F4AC6590229925C800253434 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F4AC658D229925C800253434 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F4AC65862299138800253434 /* PBXContainerItemProxy */ = {
+		F464184C229A48D20063DB0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F4AC65002299040200253434 /* Project object */;
 			proxyType = 1;
@@ -45,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4641847229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyTabBarTransitionExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4641849229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTabBarTransitionExamplesUITests.swift; sourceTree = "<group>"; };
+		F464184B229A48D20063DB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AC65092299040200253434 /* SwiftyTabBarTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTabBarTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AC650C2299040200253434 /* SwiftyTabBarTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyTabBarTransition.h; sourceTree = "<group>"; };
 		F4AC650D2299040200253434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,18 +72,20 @@
 		F4AC6559229909C900253434 /* BottomToTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToTop.swift; sourceTree = "<group>"; };
 		F4AC655B229909E000253434 /* TopLeftToBottomRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLeftToBottomRight.swift; sourceTree = "<group>"; };
 		F4AC655D229909F800253434 /* BottomLeftToTopRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLeftToTopRight.swift; sourceTree = "<group>"; };
-		F4AC657322990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTabBarTransitionExamplesUITests.swift; sourceTree = "<group>"; };
-		F4AC657522990C3800253434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AC657B22990D0000253434 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		F4AC65812299138800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyTabBarTransitionExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4AC65832299138800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTabBarTransitionExamplesUITests.swift; sourceTree = "<group>"; };
-		F4AC65852299138800253434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4AC658B229925C800253434 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4AC658C229925C800253434 /* SwiftyTabBarTransition.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyTabBarTransition.podspec; sourceTree = "<group>"; };
 		F4AC658D229925C800253434 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F4641844229A48D20063DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4AC65062299040200253434 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,16 +100,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AC657E2299138800253434 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4641848229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4641849229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.swift */,
+				F464184B229A48D20063DB0F /* Info.plist */,
+			);
+			path = SwiftyTabBarTransitionExamplesUITests;
+			sourceTree = "<group>";
+		};
 		F4AC64FF2299040200253434 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +120,7 @@
 				F4AC658C229925C800253434 /* SwiftyTabBarTransition.podspec */,
 				F4AC650B2299040200253434 /* SwiftyTabBarTransition */,
 				F4AC6528229904D700253434 /* SwiftyTabBarTransitionExamples */,
-				F4AC657222990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */,
-				F4AC65822299138800253434 /* SwiftyTabBarTransitionExamplesUITests */,
+				F4641848229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests */,
 				F4AC650A2299040200253434 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,7 +130,7 @@
 			children = (
 				F4AC65092299040200253434 /* SwiftyTabBarTransition.framework */,
 				F4AC6527229904D700253434 /* SwiftyTabBarTransitionExamples.app */,
-				F4AC65812299138800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */,
+				F4641847229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,24 +204,6 @@
 			path = SwiftyTBTAnimator;
 			sourceTree = "<group>";
 		};
-		F4AC657222990C3800253434 /* SwiftyTabBarTransitionExamplesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F4AC657322990C3800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */,
-				F4AC657522990C3800253434 /* Info.plist */,
-			);
-			path = SwiftyTabBarTransitionExamplesUITests;
-			sourceTree = "<group>";
-		};
-		F4AC65822299138800253434 /* SwiftyTabBarTransitionExamplesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F4AC65832299138800253434 /* SwiftyTabBarTransitionExamplesUITests.swift */,
-				F4AC65852299138800253434 /* Info.plist */,
-			);
-			path = SwiftyTabBarTransitionExamplesUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -230,6 +218,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F4641846229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464184E229A48D20063DB0F /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */;
+			buildPhases = (
+				F4641843229A48D20063DB0F /* Sources */,
+				F4641844229A48D20063DB0F /* Frameworks */,
+				F4641845229A48D20063DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F464184D229A48D20063DB0F /* PBXTargetDependency */,
+			);
+			name = SwiftyTabBarTransitionExamplesUITests;
+			productName = SwiftyTabBarTransitionExamplesUITests;
+			productReference = F4641847229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F4AC65082299040200253434 /* SwiftyTabBarTransition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4AC651D2299040300253434 /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransition" */;
@@ -265,24 +271,6 @@
 			productReference = F4AC6527229904D700253434 /* SwiftyTabBarTransitionExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4AC65802299138800253434 /* SwiftyTabBarTransitionExamplesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4AC65882299138800253434 /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */;
-			buildPhases = (
-				F4AC657D2299138800253434 /* Sources */,
-				F4AC657E2299138800253434 /* Frameworks */,
-				F4AC657F2299138800253434 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4AC65872299138800253434 /* PBXTargetDependency */,
-			);
-			name = SwiftyTabBarTransitionExamplesUITests;
-			productName = SwiftyTabBarTransitionExamplesUITests;
-			productReference = F4AC65812299138800253434 /* SwiftyTabBarTransitionExamplesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -293,16 +281,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = shndrs;
 				TargetAttributes = {
+					F4641846229A48D20063DB0F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F4AC6526229904D700253434;
+					};
 					F4AC65082299040200253434 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 					};
 					F4AC6526229904D700253434 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					F4AC65802299138800253434 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = F4AC6526229904D700253434;
 					};
 				};
 			};
@@ -321,12 +309,19 @@
 			targets = (
 				F4AC65082299040200253434 /* SwiftyTabBarTransition */,
 				F4AC6526229904D700253434 /* SwiftyTabBarTransitionExamples */,
-				F4AC65802299138800253434 /* SwiftyTabBarTransitionExamplesUITests */,
+				F4641846229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F4641845229A48D20063DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4AC65072299040200253434 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,16 +342,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AC657F2299138800253434 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F4641843229A48D20063DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464184A229A48D20063DB0F /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F4AC65052299040200253434 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,21 +384,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AC657D2299138800253434 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4AC65842299138800253434 /* SwiftyTabBarTransitionExamplesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F4AC65872299138800253434 /* PBXTargetDependency */ = {
+		F464184D229A48D20063DB0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F4AC6526229904D700253434 /* SwiftyTabBarTransitionExamples */;
-			targetProxy = F4AC65862299138800253434 /* PBXContainerItemProxy */;
+			targetProxy = F464184C229A48D20063DB0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -426,6 +414,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F464184F229A48D20063DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
+				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
+			};
+			name = Debug;
+		};
+		F4641850229A48D20063DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRGCDU34JU;
+				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
+			};
+			name = Release;
+		};
 		F4AC651B2299040300253434 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -641,47 +667,18 @@
 			};
 			name = Release;
 		};
-		F4AC65892299138800253434 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KRGCDU34JU;
-				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
-			};
-			name = Debug;
-		};
-		F4AC658A2299138800253434 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KRGCDU34JU;
-				INFOPLIST_FILE = SwiftyTabBarTransitionExamplesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = shndrs.SwiftyTabBarTransitionExamplesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftyTabBarTransitionExamples;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F464184E229A48D20063DB0F /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464184F229A48D20063DB0F /* Debug */,
+				F4641850229A48D20063DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F4AC65032299040200253434 /* Build configuration list for PBXProject "SwiftyTabBarTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -705,15 +702,6 @@
 			buildConfigurations = (
 				F4AC6537229904D800253434 /* Debug */,
 				F4AC6538229904D800253434 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4AC65882299138800253434 /* Build configuration list for PBXNativeTarget "SwiftyTabBarTransitionExamplesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4AC65892299138800253434 /* Debug */,
-				F4AC658A2299138800253434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

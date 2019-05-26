@@ -1,0 +1,11 @@
+framework module SwiftyTabBarTransition {
+  umbrella header "SwiftyTabBarTransition.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyTabBarTransition.Swift {
+    header "SwiftyTabBarTransition-Swift.h"
+    requires objc
+}

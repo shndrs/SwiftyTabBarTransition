@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.1",
+  "iOS" : [
+    {
+      "name" : "SwiftyTabBarTransition",
+      "hash" : "c083866ad35ad6431ec6739a1baa0e5a428fd6b16695ee9fcbf0105f9d824a1f",
+      "swiftToolchainVersion" : "4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4AC65802299138800253434"
+               BlueprintIdentifier = "F4641846229A48D20063DB0F"
                BuildableName = "SwiftyTabBarTransitionExamplesUITests.xctest"
                BlueprintName = "SwiftyTabBarTransitionExamplesUITests"
                ReferencedContainer = "container:SwiftyTabBarTransition.xcodeproj">
