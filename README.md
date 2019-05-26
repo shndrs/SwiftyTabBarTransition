@@ -40,6 +40,7 @@ in `viewDidLoad()` method of your `UITabBarController`, make `delegate` equal to
 ```Swift
 
 class TabBarController: UITabBarController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate = self
@@ -64,13 +65,16 @@ extension TabBarController: UITabBarControllerDelegate {
 }
 
 ```
-create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
+Create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
 
 *    duration
 <p>Which is the duration of our transition
     
 *    animationOption
-<p>which is the style of you transition animation</p>
+<p>Which is the style of your transition animation</p>
+
+### Animation Option
+It's an `enum` for changing transition animation
 
 | animationOption  | 
 | ------------- |     
