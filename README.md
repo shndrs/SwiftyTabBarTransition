@@ -106,7 +106,7 @@ Installation
 =======
 
 
-<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" /> <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
+ <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
 
 *    Cocoapods
 
@@ -116,7 +116,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftyTabBarTransition'
 ```
-
+<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />
 * Carthage
 
 To get the latest version of library using Carthage, you can add following line to your Cartfile.
