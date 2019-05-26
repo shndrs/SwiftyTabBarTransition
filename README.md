@@ -1,6 +1,5 @@
 # SwiftyTabBarTransition
 ![SwiftyTabBarTransition](https://user-images.githubusercontent.com/34839080/58377912-699dfd00-7f9f-11e9-9763-1b684947e8d6.png)
-<p align="center">
 ![swift-version](https://img.shields.io/badge/Swift-4.2-blueviolet.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/SwiftyTabBarTransition.svg?colorB=green)](https://cocoapods.org/pods/SwiftyTabBarTransition)
@@ -10,7 +9,6 @@
 
 <img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" /> <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
 
-</p>
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
