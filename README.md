@@ -65,10 +65,10 @@ extension TabBarController: UITabBarControllerDelegate {
 Create an object of `SwiftyTabBarTransitionOptions`. This class has 2 peroperties:
 
 *    duration
-<p>Which is the duration of our transition
+<p>Which is the duration of transition
     
 *    animationOption
-<p>Which is the style of your transition animation</p>
+<p>Which is the style of transition animation</p>
 
 ### Animation Option
 It's an `enum` for changing transition animation
@@ -90,7 +90,6 @@ It's an `enum` for changing transition animation
 
 More Animations
 =======
-
 
 ![scaleX](https://user-images.githubusercontent.com/34839080/58367837-3143e380-7ef9-11e9-9493-e7e1a205de47.gif)
 ![topLeftToBottomRight](https://user-images.githubusercontent.com/34839080/58367861-bf1fce80-7ef9-11e9-8d49-93c9f36ee1de.gif)
