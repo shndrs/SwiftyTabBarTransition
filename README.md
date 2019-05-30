@@ -125,7 +125,7 @@ github "shndrs/SwiftyTabBarTransition"
 
 Author
 =======
-sahandraeisi1994@gmail.com, sahandraeisi@yahoo.com
+sahandraeisi1994@gmail.com, sahandraeisi@yahoo.com, [shndrs](https://linkedin.com/in/shndrs)
 
 License
 =======
