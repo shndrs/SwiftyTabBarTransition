@@ -24,16 +24,15 @@ For enjoy this framework you have three simple steps:
 
 ### Step 1
 
-<p>Let's import SwiftyTabBarTransition first</p>
+Let's import SwiftyTabBarTransition in top of your `UITabBarController` class first
 
 ```Swift
 import SwiftyTabBarTransition
-
 ```
 
 ### Step 2
 
-in `viewDidLoad()` method of your `UITabBarController`, make `delegate` equal to `self`
+then in `viewDidLoad()` method of your `UITabBarController`, make `delegate` equal to `self`, pretty simple so far, right?! 😉
 
 ```Swift
 
@@ -43,12 +42,13 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         delegate = self
     }
+    
 }
 ```
 
 ### Step 3
 
-your `UITabBarController` class, must inherite from `UITabBarControllerDelegate` protocol, then write an extension of your `UITabBarController`, then confirm from `animationControllerForTransitionFrom` method
+your `UITabBarController` class, must inherite from `UITabBarControllerDelegate` protocol, so write an extension of your `UITabBarController`, then confirm from `animationControllerForTransitionFrom` method
 
 ```Swift
 
