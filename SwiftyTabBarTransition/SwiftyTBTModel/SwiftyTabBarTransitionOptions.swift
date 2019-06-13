@@ -36,6 +36,7 @@ public class SwiftyAnimateDestinationTransition {
 }
 
 public class SwiftyAnimateFadeTransition {
+    
     public var transitionContext: UIViewControllerContextTransitioning!
     public var duration: TimeInterval!
     
