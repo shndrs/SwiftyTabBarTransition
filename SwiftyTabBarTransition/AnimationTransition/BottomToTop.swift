@@ -9,6 +9,7 @@
 import UIKit
 
 final public class BottomToTop: NSObject {
+    
     private var transition:SwiftyTabBarTransitionOptions!
     
     public init(transition:SwiftyTabBarTransitionOptions) {

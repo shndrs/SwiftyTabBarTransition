@@ -23,6 +23,7 @@ public class SwiftyAnimateTransition {
 }
 
 public class SwiftyAnimateDestinationTransition {
+    
     public var transitionContext: UIViewControllerContextTransitioning!
     public var destinationTransform: CGAffineTransform!
     public var duration: TimeInterval!

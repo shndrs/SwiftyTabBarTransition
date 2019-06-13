@@ -12,6 +12,7 @@ public struct SwiftyTabBarTransition {
     
     ///A Factory method That returns a UIViewControllerAnimatedTransitioning
     
+    @discardableResult
     public static func set(transition:SwiftyTabBarTransitionOptions) -> UIViewControllerAnimatedTransitioning {
         
         switch transition.animationOption {

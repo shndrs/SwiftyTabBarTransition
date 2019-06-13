@@ -9,6 +9,7 @@
 import UIKit
 
 final public class ScaleInXY: NSObject {
+    
     private var transition:SwiftyTabBarTransitionOptions!
     
     public init(transition:SwiftyTabBarTransitionOptions) {
