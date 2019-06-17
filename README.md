@@ -109,10 +109,10 @@ Installation
  <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
 
 SwiftyTabBarTransition is available through [CocoaPods](https://cocoapods.org/pods/SwiftyTabBarTransition). To install
-it, simply add the following line to your Podfile:
+it in latest version, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftyTabBarTransition'
+pod 'SwiftyTabBarTransition', '~> 1.0.2'
 ```
 <img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />
 
@@ -120,7 +120,7 @@ pod 'SwiftyTabBarTransition'
 To get the latest version of library using Carthage, you can add following line to your Cartfile.
 
 ```bash
-github "shndrs/SwiftyTabBarTransition"
+github "shndrs/SwiftyTabBarTransition" "1.0.2"
 ```
 
 
