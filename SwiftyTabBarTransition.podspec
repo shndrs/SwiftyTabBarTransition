@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftyTabBarTransition"
-  spec.version      = "1.0.2"
+  spec.version      = "1.5.1"
   spec.summary      = "An UITabBarController transition animation with a lot of options for animation"
 
   spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://www.linkedin.com/in/shndrs/"
 
   spec.ios.deployment_target = "9.3"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5"
 
 
   spec.source       = { :git => "https://github.com/shndrs/SwiftyTabBarTransition.git", :tag => "#{spec.version}" }
