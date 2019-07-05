@@ -17,10 +17,10 @@ Pod::Spec.new do |spec|
 
 
   spec.author             = { "shndrs" => "sahandraeisi1994@gmail.com" }
-  spec.social_media_url   = "https://www.linkedin.com/in/shndrs/"
+#spec.social_media_url   = "https://www.linkedin.com/in/shndrs/"
 
   spec.ios.deployment_target = "9.3"
-  spec.swift_version = "5"
+  spec.swift_version = "5.0"
 
 
   spec.source       = { :git => "https://github.com/shndrs/SwiftyTabBarTransition.git", :tag => "#{spec.version}" }
