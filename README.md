@@ -99,8 +99,8 @@ Requirements
 =======
 
 <p>iOS 9.3+</p>
-<p>Xcode 10.1</p>  
-<p>Swift 4.2</p>
+<p>Xcode 10.2.1</p>  
+<p>Swift 5</p>
 
 Installation
 =======
@@ -111,18 +111,35 @@ Installation
 SwiftyTabBarTransition is available through [CocoaPods](https://cocoapods.org/pods/SwiftyTabBarTransition). To install
 it in latest version, simply add the following line to your Podfile:
 
+### Swift 4.2
+
 ```ruby
 pod 'SwiftyTabBarTransition', '~> 1.0.2'
 ```
+
+### Swift 5.0
+
+
+```ruby
+pod 'SwiftyTabBarTransition', '~> 1.5.2'
+```
+
 <img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />
 
 
 To get the latest version of library using Carthage, you can add following line to your Cartfile.
 
+### Swift 4.2
+
 ```bash
 github "shndrs/SwiftyTabBarTransition" "1.0.2"
 ```
+### Swift 5.0
 
+
+```bash
+github "shndrs/SwiftyTabBarTransition" "1.5.2"
+```
 
 Author
 =======
