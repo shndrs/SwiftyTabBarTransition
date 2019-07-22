@@ -3,11 +3,11 @@
 ![SwiftyTabBarTransition](https://user-images.githubusercontent.com/34839080/58377912-699dfd00-7f9f-11e9-9763-1b684947e8d6.png)
 [![codebeat badge](https://codebeat.co/badges/bc75f2a7-d69f-4280-b421-7f61a5ddf3d0)](https://codebeat.co/projects/github-com-shndrs-swiftytabbartransition-master)
 ![swift-version](https://img.shields.io/badge/Swift-5-blueviolet.svg)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-![cocoapod](https://img.shields.io/badge/Cocoapods-compatible-blueviolet.svg)
-[![License](https://img.shields.io/cocoapods/l/SwiftyTabBarTransition.svg?colorB=green)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
+[![License](https://img.shields.io/cocoapods/l/SwiftyTabBarTransition.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-000000.svg?style=flat)](https://github.com/Carthage/Carthage)
+![cocoapods](https://img.shields.io/badge/CocoaPods-compatible-000000.svg)
 
 
 
