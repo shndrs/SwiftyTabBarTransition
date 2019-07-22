@@ -163,9 +163,9 @@
 				F4AC654F2299095600253434 /* ScaleX.swift */,
 				F4AC65512299096500253434 /* ScaleY.swift */,
 				F4523A0222E5C5F2004BB2FC /* ScaleInOutXY.swift */,
+				F4523A0A22E5CBB1004BB2FC /* TopBottom.swift */,
 				F4AC655B229909E000253434 /* TopLeftToBottomRight.swift */,
 				F4AC655D229909F800253434 /* BottomLeftToTopRight.swift */,
-				F4523A0A22E5CBB1004BB2FC /* TopBottom.swift */,
 			);
 			path = AnimationTransition;
 			sourceTree = "<group>";

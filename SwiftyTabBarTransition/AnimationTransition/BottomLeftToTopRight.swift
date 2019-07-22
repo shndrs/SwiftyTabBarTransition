@@ -35,4 +35,3 @@ extension BottomLeftToTopRight: UIViewControllerAnimatedTransitioning {
         return transition.duration
     }
 }
-

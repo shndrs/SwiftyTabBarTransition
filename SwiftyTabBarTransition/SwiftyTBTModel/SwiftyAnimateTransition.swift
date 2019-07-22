@@ -35,5 +35,3 @@ public class SwiftyTabBarTransitionOptions {
         self.animationOption = animationOption
     }
 }
-
-

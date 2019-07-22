@@ -29,5 +29,4 @@ class SwiftyTabBarTransitionExamplesUITests: XCTestCase {
     func testExample() {
                         
     }
-
 }

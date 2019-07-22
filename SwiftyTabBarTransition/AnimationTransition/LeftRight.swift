@@ -49,4 +49,3 @@ extension LeftRight: UIViewControllerAnimatedTransitioning {
         return self.transition.duration
     }
 }
-

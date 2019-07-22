@@ -13,6 +13,16 @@ final public class TopBottom: NSObject {
     private var isItTTB:Bool!
     private var transition:SwiftyTabBarTransitionOptions!
     
+    private lazy var affineTransformPos: CGAffineTransform = {
+        return CGAffineTransform(translationX: 0,
+                                 y: +UIScreen.main.bounds.height)
+    }()
+    
+    private lazy var affineTransformNeg: CGAffineTransform = {
+        return CGAffineTransform(translationX: 0,
+                                 y: -UIScreen.main.bounds.height)
+    }()
+    
     public init(transition:SwiftyTabBarTransitionOptions, isItTTB:Bool) {
         self.transition = transition
         self.isItTTB = isItTTB
@@ -27,15 +37,11 @@ extension TopBottom: UIViewControllerAnimatedTransitioning {
         
         let object = SwiftyAnimateTransition { (options) in
             if isItTTB {
-                options.destinationTransform = CGAffineTransform(translationX: 0,
-                                                                 y: -UIScreen.main.bounds.height)
-                options.originTransform = CGAffineTransform(translationX: 0,
-                                                            y: +UIScreen.main.bounds.height)
+                options.destinationTransform = affineTransformNeg
+                options.originTransform = affineTransformPos
             } else {
-                options.destinationTransform = CGAffineTransform(translationX: 0,
-                                                                 y: +UIScreen.main.bounds.height)
-                options.originTransform = CGAffineTransform(translationX: 0,
-                                                            y: -UIScreen.main.bounds.height)
+                options.destinationTransform = affineTransformPos
+                options.originTransform = affineTransformNeg
             }
             options.duration = transitionDuration(using: transitionContext)
             options.transitionContext = transitionContext
@@ -47,5 +53,3 @@ extension TopBottom: UIViewControllerAnimatedTransitioning {
         return self.transition.duration
     }
 }
-
-

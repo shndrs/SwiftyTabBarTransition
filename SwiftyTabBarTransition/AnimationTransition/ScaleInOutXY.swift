@@ -42,4 +42,3 @@ extension ScaleInOutXY: UIViewControllerAnimatedTransitioning {
         return transition.duration
     }
 }
-

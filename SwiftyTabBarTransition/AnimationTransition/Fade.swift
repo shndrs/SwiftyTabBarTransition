@@ -33,4 +33,3 @@ extension Fade: UIViewControllerAnimatedTransitioning {
         return transition.duration
     }
 }
-

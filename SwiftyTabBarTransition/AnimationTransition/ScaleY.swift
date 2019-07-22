@@ -34,4 +34,3 @@ extension ScaleY: UIViewControllerAnimatedTransitioning {
         return transition.duration
     }
 }
-
