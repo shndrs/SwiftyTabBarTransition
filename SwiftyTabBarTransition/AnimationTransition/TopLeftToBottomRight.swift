@@ -23,7 +23,8 @@ extension TopLeftToBottomRight: UIViewControllerAnimatedTransitioning {
     
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let object = SwiftyAnimateDestinationTransition { (options) in
-            options.destinationTransform = CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: -UIScreen.main.bounds.height)
+            options.destinationTransform = CGAffineTransform(translationX: -UIScreen.main.bounds.width,
+                                                             y: -UIScreen.main.bounds.height)
             options.duration = transitionDuration(using: transitionContext)
             options.transitionContext = transitionContext
         }

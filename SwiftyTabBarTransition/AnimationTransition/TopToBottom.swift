@@ -24,8 +24,10 @@ extension TopToBottom: UIViewControllerAnimatedTransitioning {
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         let object = SwiftyAnimateTransition { (options) in
-            options.destinationTransform = CGAffineTransform(translationX: 0, y: -UIScreen.main.bounds.height)
-            options.originTransform = CGAffineTransform(translationX: 0, y: +UIScreen.main.bounds.height)
+            options.destinationTransform = CGAffineTransform(translationX: 0,
+                                                             y: -UIScreen.main.bounds.height)
+            options.originTransform = CGAffineTransform(translationX: 0,
+                                                        y: +UIScreen.main.bounds.height)
             options.duration = transitionDuration(using: transitionContext)
             options.transitionContext = transitionContext
         }

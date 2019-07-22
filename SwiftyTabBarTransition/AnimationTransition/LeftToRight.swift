@@ -24,8 +24,10 @@ extension LeftToRight: UIViewControllerAnimatedTransitioning {
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         let object = SwiftyAnimateTransition { (options) in
-            options.destinationTransform = CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: 0)
-            options.originTransform = CGAffineTransform(translationX: +UIScreen.main.bounds.width, y: 0)
+            options.destinationTransform =
+                CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: 0)
+            options.originTransform =
+                CGAffineTransform(translationX: +UIScreen.main.bounds.width, y: 0)
             options.duration = transitionDuration(using: transitionContext)
             options.transitionContext = transitionContext
         }
