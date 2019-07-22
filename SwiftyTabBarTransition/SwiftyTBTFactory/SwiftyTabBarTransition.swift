@@ -18,9 +18,9 @@ public struct SwiftyTabBarTransition {
         switch transition.animationOption {
             
         case .leftToRight:
-            return LeftToRight(transition: transition)
+            return LeftRight(transition: transition, isItLTR: true)
         case .rightToLeft:
-            return RightToLeft(transition: transition)
+            return LeftRight(transition: transition, isItLTR: false)
         case .fade:
             return Fade(transition: transition)
         case .scaleX:
@@ -32,9 +32,9 @@ public struct SwiftyTabBarTransition {
         case .scaleOutXY:
             return ScaleInOutXY(transition: transition, isItIn: false)
         case .topToBottom:
-            return TopButtom(transition: transition, isItTTB: true)
+            return TopBottom(transition: transition, isItTTB: true)
         case .bottomToTop:
-            return TopButtom(transition: transition, isItTTB: false)
+            return TopBottom(transition: transition, isItTTB: false)
         case .topLeftToBottomRight:
             return TopLeftToBottomRight(transition: transition)
         case .bottomLeftToTopRight:
