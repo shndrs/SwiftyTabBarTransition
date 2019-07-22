@@ -13,6 +13,14 @@ final public class LeftRight: NSObject {
     private var isItLTR:Bool!
     private var transition:SwiftyTabBarTransitionOptions!
     
+    private lazy var affineTransformPos: CGAffineTransform = {
+        return CGAffineTransform(translationX: +UIScreen.main.bounds.width, y: 0)
+    }()
+    
+    private lazy var affineTransformNeg: CGAffineTransform = {
+        return CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: 0)
+    }()
+    
     public init(transition:SwiftyTabBarTransitionOptions, isItLTR:Bool) {
         self.transition = transition
         self.isItLTR = isItLTR
@@ -28,15 +36,11 @@ extension LeftRight: UIViewControllerAnimatedTransitioning {
         let object = SwiftyAnimateTransition { (options) in
             
             if isItLTR {
-                options.destinationTransform =
-                    CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: 0)
-                options.originTransform =
-                    CGAffineTransform(translationX: +UIScreen.main.bounds.width, y: 0)
+                options.destinationTransform = affineTransformNeg
+                options.originTransform = affineTransformPos
             } else {
-                options.destinationTransform =
-                    CGAffineTransform(translationX: +UIScreen.main.bounds.width, y: 0)
-                options.originTransform =
-                    CGAffineTransform(translationX: -UIScreen.main.bounds.width, y: 0)
+                options.destinationTransform = affineTransformPos
+                options.originTransform = affineTransformNeg
             }
             
             options.duration = transitionDuration(using: transitionContext)
