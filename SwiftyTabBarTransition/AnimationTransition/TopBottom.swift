@@ -13,12 +13,12 @@ final public class TopBottom: NSObject {
     private var isItTTB:Bool!
     private var transition:SwiftyTabBarTransitionOptions!
     
-    private lazy var affineTransformPos: CGAffineTransform = {
+    private lazy var posAffine: CGAffineTransform = {
         return CGAffineTransform(translationX: 0,
                                  y: +UIScreen.main.bounds.height)
     }()
     
-    private lazy var affineTransformNeg: CGAffineTransform = {
+    private lazy var negAffine: CGAffineTransform = {
         return CGAffineTransform(translationX: 0,
                                  y: -UIScreen.main.bounds.height)
     }()
@@ -37,11 +37,11 @@ extension TopBottom: UIViewControllerAnimatedTransitioning {
         
         let object = SwiftyAnimateTransition { (options) in
             if isItTTB {
-                options.destinationTransform = affineTransformNeg
-                options.originTransform = affineTransformPos
+                options.destinationTransform = negAffine
+                options.originTransform = posAffine
             } else {
-                options.destinationTransform = affineTransformPos
-                options.originTransform = affineTransformNeg
+                options.destinationTransform = posAffine
+                options.originTransform = negAffine
             }
             options.duration = transitionDuration(using: transitionContext)
             options.transitionContext = transitionContext
