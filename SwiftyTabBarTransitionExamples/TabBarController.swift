@@ -20,7 +20,9 @@ final class TabBarController: UITabBarController {
 
 extension TabBarController: UITabBarControllerDelegate {
     
-    func tabBarController(_ tabBarController: UITabBarController, animationControllerForTransitionFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func tabBarController(_ tabBarController: UITabBarController,
+                          animationControllerForTransitionFrom fromVC: UIViewController,
+                          to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
         let transitionOptions = SwiftyTabBarTransitionOptions(duration: 0.3, animationOption: .bottomToTop)
         let transition = SwiftyTabBarTransition.set(transition: transitionOptions)

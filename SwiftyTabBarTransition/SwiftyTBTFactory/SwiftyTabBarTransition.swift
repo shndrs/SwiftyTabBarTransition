@@ -28,9 +28,9 @@ public struct SwiftyTabBarTransition {
         case .scaleY:
             return ScaleY(transition: transition)
         case .scaleInXY:
-            return ScaleInXY(transition: transition)
+            return ScaleInOutXY(transition: transition, isItIn: true)
         case .scaleOutXY:
-            return ScaleOutXY(transition: transition)
+            return ScaleInOutXY(transition: transition, isItIn: false)
         case .topToBottom:
             return TopToBottom(transition: transition)
         case .bottomToTop:
