@@ -13,7 +13,8 @@ public struct SwiftyTabBarTransition {
     ///A Factory method That returns a UIViewControllerAnimatedTransitioning
     
     @discardableResult
-    public static func set(transition:SwiftyTabBarTransitionOptions) -> UIViewControllerAnimatedTransitioning {
+    public static func set(transition:SwiftyTabBarTransitionOptions)
+        -> UIViewControllerAnimatedTransitioning {
         
         switch transition.animationOption {
             
@@ -27,6 +28,14 @@ public struct SwiftyTabBarTransition {
             return ScaleX(transition: transition)
         case .scaleY:
             return ScaleY(transition: transition)
+        default:
+            return a(transition: transition)
+        }
+    }
+    
+    private static func a(transition: SwiftyTabBarTransitionOptions) -> UIViewControllerAnimatedTransitioning {
+        switch transition.animationOption {
+            
         case .scaleInXY:
             return ScaleInOutXY(transition: transition, isItIn: true)
         case .scaleOutXY:
@@ -39,6 +48,8 @@ public struct SwiftyTabBarTransition {
             return TopLeftToBottomRight(transition: transition)
         case .bottomLeftToTopRight:
             return BottomLeftToTopRight(transition: transition)
+        default:
+            return LeftRight(transition: transition, isItLTR: true)
         }
     }
 }
