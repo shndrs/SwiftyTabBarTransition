@@ -1,7 +1,7 @@
 # SwiftyTabBarTransition
 
 ![SwiftyTabBarTransition](https://user-images.githubusercontent.com/34839080/58377912-699dfd00-7f9f-11e9-9763-1b684947e8d6.png)
-[![codebeat badge](https://codebeat.co/badges/bc75f2a7-d69f-4280-b421-7f61a5ddf3d0)](https://codebeat.co/projects/github-com-shndrs-swiftytabbartransition-master)
+[![codebeat badge](https://codebeat.co/badges/bcd07b05-c07a-46df-9e70-feb06e45f410)](https://codebeat.co/projects/github-com-shndrs-swiftytabbartransition-master)
 ![swift-version](https://img.shields.io/badge/Swift-5-blueviolet.svg)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyTabBarTransition.svg?style=flat)](https://cocoapods.org/pods/SwiftyTabBarTransition)
