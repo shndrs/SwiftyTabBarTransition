@@ -123,7 +123,7 @@ pod 'SwiftyTabBarTransition', '~> 1.0.2'
 
 
 ```ruby
-pod 'SwiftyTabBarTransition', '~> 1.5.2'
+pod 'SwiftyTabBarTransition', '~> 1.5.3'
 ```
 
 <img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />
@@ -140,7 +140,7 @@ github "shndrs/SwiftyTabBarTransition" "1.0.2"
 
 
 ```bash
-github "shndrs/SwiftyTabBarTransition" "1.5.2"
+github "shndrs/SwiftyTabBarTransition" "1.5.3"
 ```
 
 Author
